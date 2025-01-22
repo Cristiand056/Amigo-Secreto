@@ -5,4 +5,5 @@
 
 ## cositas extras
 
-1. añadi el no aceptar nombres repetidos y se le notifica al usuario con un alert que el nombre ya esta en la lista
+1. añadi el no aceptar nombres repetidos y se le notifica al usuario con un alert que el nombre ya esta en la lista.
+2. intente hacer deploy, pero pare ya que no era necesario.
