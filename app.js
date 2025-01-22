@@ -21,7 +21,13 @@ function agregarAmigo(){
     if(nombre==''){
         alert("Este campo esta vacio, por favor ingrese un nombre")
     }else{
-        listaParticipantes.push(nombre);
+        if(listaParticipantes.includes(nombre)){
+            alert(`La persona llamada ${nombre} ya esta en la lista`)
+        }else{
+            listaParticipantes.push(nombre);
+            document.getElementById("amigo").value = '';
+        }
+        
     }   
     console.log(listaParticipantes);
 
